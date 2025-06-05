@@ -11,3 +11,7 @@ jobs:
 
       - name: Run echo command
         run: echo "Hello from GitHub Actions!"
+
+      - name: Show file content
+        run: cat test-actions.txt
+  
